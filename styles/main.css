@@ -1,23 +1,48 @@
 body {
   
     text-align: center;
-    background-color: lightgray;
-    background-repeat: no-repeat;
-    
+    background-color:lightblue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, purple, lightblue); /* Standard syntax (must be last) */
+    background-attachment: fixed;
   }
 h1 {
   padding: 40px 0 20px 0;
+  color: whitesmoke;
+  font-family: Pacifico;
+  font-size: 4rem;
+}
+
+p {
+  text-align: center;
+  margin: 20px 40px 20px 40px;
+  font-size: 1.2rem;
+  color: whitesmoke;
 }
 
 .card {
-  background-color: lightslategray;
-  margin: 40px 20px 20px 20px;
-  text-align: justify;
+  
+  background-color: lightgray;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
 }
 .card-title {
   text-align: center;
 }
 
+.card-img-top {
+  height: 15rem;
+  
+}
+
+.fab {
+  margin: 0px 10px 10px 10px; 
+  
+}
+
+.fas {
+  margin: 0px 10px 10px 10px;
+  
+}
 
 footer {
   
@@ -30,7 +55,7 @@ footer {
 
 /* unvisited link */
 a:link {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -42,7 +67,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: white;
+  color: lightblue;
   text-decoration: none;
 }
 
