@@ -19,10 +19,10 @@ p {
   color: whitesmoke;
 }
 
+
 .card {
-  
   background-color: lightgray;
-  margin: 5px 5px 5px 5px;
+  margin: 5px 10px 5px 10px;
   text-align: center;
 }
 .card-title {
