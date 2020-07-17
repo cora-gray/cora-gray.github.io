@@ -24,14 +24,10 @@ p {
   background-color: lightgray;
   margin: 5px 10px 5px 10px;
   text-align: center;
+  width: 18rem;
 }
 .card-title {
   text-align: center;
-}
-
-.card-img-top {
-  height: 15rem;
-  
 }
 
 .fab {
