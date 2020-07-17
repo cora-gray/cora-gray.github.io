@@ -1,74 +1,90 @@
 body {
-  
-    text-align: center;
-    background-color:lightblue; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right, purple, lightblue); /* Standard syntax (must be last) */
-    background-attachment: fixed;
-  }
+
+	text-align: center;
+	background-color: lightblue;
+	/* For browsers that do not support gradients */
+	background-image: linear-gradient(to bottom right, purple, lightblue);
+	/* Standard syntax (must be last) */
+	background-attachment: fixed;
+}
+
 h1 {
-  padding: 40px 0 20px 0;
+	padding: 40px 0 20px 0;
+	color: whitesmoke;
+	font-family: Pacifico;
+	font-size: 4rem;
+}
+
+h3 {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   color: whitesmoke;
-  font-family: Pacifico;
-  font-size: 4rem;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
 }
 
 p {
-  text-align: center;
-  margin: 20px 40px 20px 40px;
-  font-size: 1.2rem;
-  color: whitesmoke;
+	text-align: center;
+	margin: 20px 40px 20px 40px;
+	font-size: 1.2rem;
+	color: whitesmoke;
 }
 
 
 .card {
-  background-color: lightgray;
-  margin: 5px 10px 5px 10px;
-  text-align: center;
-  width: 18rem;
+	background-color: lightgray;
+	margin: 5px 10px 5px 10px;
+	text-align: center;
+
 }
+
 .card-title {
-  text-align: center;
+	text-align: center;
 }
 
 .fab {
-  margin: 0px 10px 10px 10px; 
-  
+  margin: 0px 10px 10px 10px;
+  color: white;
+
 }
 
 .fas {
-  margin: 0px 10px 10px 10px;
-  
+	margin: 0px 10px 10px 10px;
+  color: white;
 }
 
 footer {
-  
-  justify-content: center;
-  padding-bottom: 5px;
-  color: black;
+
+	justify-content: center;
+	padding-bottom: 5px;
+	color: black;
 }
 
 
 
 /* unvisited link */
 a:link {
-  color: white;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: whitesmoke;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: lightblue;
-  text-decoration: none;
+	color: lightblue;
+	text-decoration: none;
 }
 
 /* selected link */
 a:active {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
